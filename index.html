@@ -1,0 +1,31 @@
+<head>
+    <title>pixel playground</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="no-input">
+        <h1 class="bubble" onclick="goHome()">pixel playground</h1>
+
+        <p class="bubble">Type in your script's filename to get started!</p>
+        <p class="bubble">Make sure that you type the whole name (e.g. sample1.js), and that your file is in the my-scripts folder.</p>
+
+        <p class="bubble">You can always click "pixel playground" to return to this screen.</p>
+        
+        <div class="bubble">
+            <label for="custom-input">filename: </label>
+            <input id="custom-input" name="custom-input"></input>
+            <br>
+            <button onclick="getScript()">see it!</button>
+        </div>
+    </div>
+
+    <div id="with-input">
+        <h1 class="bubble" onclick="goHome()">pixel playground presents</h1>
+        <h2 class="bubble"></h2>
+        <div id="pixels"></div>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="setup.js"></script>
+</body>

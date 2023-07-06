@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(111, 120, 135);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h1:hover {
+    cursor: pointer;
+}
+
+.bubble {
+    display: table;
+    margin: 10px auto 10px auto;
+    background-color: rgb(1, 23, 42);
+    border-radius: 20%;
+    border: 10px solid rgb(1, 23, 42);
+    color: cornflowerblue;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    background: none;
+    border: 2px solid cornflowerblue;
+    border-radius: 10%;
+    color: cornflowerblue
+}
+
+button:hover {
+    background-color: cornflowerblue;
+    color: rgb(1, 23, 42);
+}
+
+#pixels {
+    height: 80%;
+    aspect-ratio: 1;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 5px;
+
+    background-color: rgb(1, 23, 42);
+    border: 20px solid rgb(1, 23, 42);
+    border-radius: 4%;
+}
+
+.pixel {
+    aspect-ratio: 1;
+    background-color: rgb(1, 14, 26);
+    border-radius: 15%;
+    border: 1px outset cornflowerblue;
+}
