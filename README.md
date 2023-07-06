@@ -8,7 +8,7 @@ Colors are commonly represented in RGB (red green blue) format. So, we can repre
 
 To tell the pixel playground what to display, you just need to tell it three numbers for each pixel on the 8x8 grid. Therefore, you create an 8x8x3 three-dimensional array of integers. We call this grid the matrix representation of the image.
 
-An animation is just several still images shown in order. Therefore, to define an animation, you make an array of matrices, which will be an nx8x8x3 four-dimensional array (where n is the number of frames -- the only limit is your computer's memory!).
+An animation is several still images shown in order. Therefore, to define an animation, you make an array of matrices, which will be an nx8x8x3 four-dimensional array (where n is the number of frames -- the only limit is your computer's memory!).
 
 ## simple api
 
@@ -28,7 +28,7 @@ RED, ORANGE, YELLOW, GREEN, AQUE, BLUE, PURPLE, PINK, BLACK, GRAY, WHITE
 
 ## easy to start!
 
-All you need to do to get started is to clone or fork this repository
+All you need to do to get started is:
 
 1. Clone (or fork then clone) this repository. 
 2. Create your script in the my-scripts folder
